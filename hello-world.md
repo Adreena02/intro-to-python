@@ -152,16 +152,39 @@
 ## SyntaxError
 > A SyntaxError is reported by the Python interpreter when some portion of the code is incorrect. This can include misspelled keywords, missing or too many brackets or parenthesis, incorrect operators, missing or too many quotation marks, or other conditions.
 
-> ``
+ `age = 7 + 5 = 4`
 
-> ``
+ `File "<stdin>", line 1`
 
-> ``
+ `SyntaxError: can't assign to operator`
 
-> ``
+## NameError
+> A NameError is reported by the Python interpreter when it detects a variable that is unknown. This can occur when a variable is used before it has been assigned a value or if a variable name is spelled differently than the point at which it was defined. The Python interpreter will display the line of code where the NameError was detected and indicate which name it found that was not defined.
 
-> ``
+ `misspelled_variable_name`
 
-> ``
+ `NameError: name 'misspelled_variable_name' is not defined`
 
-> ``
+## Floating Point Numbers
+> Python variables can be assigned different types of data. One supported data type is the floating point number. A floating point number is a value that contains a decimal portion. It can be used to represent numbers that have fractional quantities. For example, a = 3/5 can not be represented as an integer, so the variable a is assigned a floating point value of 0.6.
+
+ `# Floating point numbers`
+
+ `pi = 3.14159`
+
+ `meal_cost = 12.99`
+
+ `tip_percent = 0.20`
+
+## print() Function
+> The print() function is used to output text, numbers, or other printable information to the console.
+
+> It takes one or more arguments and will output each of the arguments to the console separated by a space. If no arguments are provided, the print() function will output a blank line.
+
+ `print("Hello World!")`
+
+ `print(100)`
+
+ `pi = 3.14159`
+
+ `print(pi)`
