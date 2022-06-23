@@ -90,18 +90,23 @@
  `a <= a # evaluates to True`
 
 ## if Statement
->
+> The Python if statement is used to determine the execution of code based on the evaluation of a Boolean expression.
+> - If the if statement expression evaluates to True, then the indented code following the statement is executed.
+> - If the expression evaluates to False then the indented code following the if statement is skipped and the program executes the next line of code which is indented at the same level as the if statement.
 
+ `# if Statement`
 
-> ``
+ `test_value = 100`
 
-> ``
+ `if test_value > 1:  # Expression evaluates to True  print("This code is executed!")`
 
-> ``
+ `if test_value > 1000:  # Expression evaluates to False  print("This code is NOT executed!")`
 
-> ``
+ `print("Program continues at this point.")`
 
-> ``
+## else Statement
+> The Python else statement provides alternate code to execute if the expression in an if statement evaluates to False.
+> The indented code for the if statement is executed if the expression evaluates to True. The indented code immediately following the else is executed only if the expression evaluates to False. To mark the end of the else block, the code must be unindented to the same level as the starting if line.
 
 > ``
 
